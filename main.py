@@ -24,7 +24,7 @@ birthplace = GeoPos(bplace.split()[0], bplace.split()[1])
 
 chart = Chart(birthdate, birthplace)
 
-year = int(bdate[:3])
+year = int(bdate[:4])
 
 zodiac ={'lagna' : trotosid(chart.get(const.ASC).lon, year), 'sun' : trotosid(chart.get(const.SUN).lon, year),
 'moon' : trotosid(chart.get(const.MOON).lon, year),
