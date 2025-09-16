@@ -74,7 +74,7 @@ place_entry.pack(padx=10, pady=5)
 calc_button = ttk.Button(root, text="Calculate", command=get_date_time)
 calc_button.pack(pady=20)
 
-exit_button_ = ttk.Button(root, text="Exit", command=exit_button)
+exit_button_ = ttk.Button(root, text="Show Chart", command=exit_button)
 exit_button_.pack(pady=20)
 
 
@@ -97,4 +97,5 @@ class person:
     def pla(self):
         return self.pl
     
+
 person_ = person(date, zone, time, place)
